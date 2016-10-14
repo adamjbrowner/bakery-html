@@ -1,0 +1,133 @@
+* {
+  /*border: 1px solid black;*/
+  font-family: "Alegreya";
+  margin: 0;
+}
+
+body {
+  width: 1280px;
+  text-align: center;
+}
+
+#header {
+  background-image: url("https://s21.postimg.org/faghk4k53/hero.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 720px;
+  color: white;
+}
+
+#nav-bar {
+  position: fixed;
+  background-color: rgba(86, 83, 76, 0.529);
+  height: 80px;
+  width: 1280px;
+  text-align: center;
+}
+
+#nav-bar * {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+.nav-item {
+  margin: 0 20px 0 20px;
+  width: 8%;
+}
+
+#gustoso {
+  position: relative;
+  top: 23px;
+  right: 10px;
+  width: 10%;
+  height: auto;
+}
+
+#hero-text {
+  font-family: "Myriad Pro";
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+
+#hero-text * {
+  margin: auto;
+  position: relative;
+  color: #443E32;
+}
+
+#love-pastry {
+  font-size: 92px;
+  top: 30px;
+}
+
+#hero-text img {
+  top: 40px;
+}
+
+#fresh-ingred {
+  font-size: 24px;
+  width: 45%;
+  top: 100px;
+}
+
+#button {
+  background-color: rgba(86, 83, 76, 0.529);
+  width: 15%;
+  height: 50px;
+  top: 200px;
+}
+
+#button p {
+  margin: auto;
+  color: white;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+#background {
+  background-image: url("/Users/adamjbrowner/Documents/Projects/Bakery/images/bg.png")
+}
+
+.panel-2 {
+  width: 35%;
+  height: 680px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  vertical-align: top;
+}
+
+#left-panel-text {
+  position: relative;
+  height: 100%;
+}
+
+#left-panel-text p {
+  position: relative;
+}
+
+#left-panel-text :nth-child(1) {
+  font-weight: bold;
+  font-size: 60px;
+  color: #56534c;
+  top: 80px;
+}
+
+#left-panel-text :nth-child(2) {
+  color: #a47d5e;
+  top: 85px;
+}
+
+#left-panel-text :nth-child(3) {
+  color: #56534c;
+  top: 120px;
+}
+
+#left-panel-text :nth-child(4) {
+  font-weight: bold;
+  font-size: 20px;
+  color: #56534c;
+  top: 150px;
+}
